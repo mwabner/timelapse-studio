@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+
+# Xcode: local build outputs and user settings
+build/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Signing material and local secrets
+*.p12
+*.p8
+*.mobileprovision
+*.provisionprofile
+.env
+.env.*
+!.env.example
+
+# Local media and exports: keep source assets outside these folders
+/local-media/
+/exports/
