@@ -25,3 +25,12 @@ xcuserdata/
 # Local media and exports: keep source assets outside these folders
 /local-media/
 /exports/
+
+# Finder resource forks
+__MACOSX/
+._*
+
+# Local archives and distribution outputs
+*.xcarchive/
+*.dSYM/
+*.dmg
